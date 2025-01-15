@@ -25,5 +25,4 @@ button_no = Button(root, text='Нет', bg='green', command=click_no, width=3, h
 button_yes.place(x=200, y=80)
 button_no.place(x=80, y=80)
 
-if __name__ == '__main__':
-    root.mainloop()
+root.mainloop()
