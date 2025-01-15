@@ -6,7 +6,6 @@ root.title('Just_code')
 root.geometry('300x250')
 
 def click_yes():
-    button_yes.config(state=DISABLED)
     button_yes.place(x=random.randint(0, 250), y=random.randint(0, 200))
 
 def click_no():
