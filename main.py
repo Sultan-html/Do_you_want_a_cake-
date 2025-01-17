@@ -33,5 +33,5 @@ button_yes.place(x=250, y=100)
 button_no.place(x=80, y=100)
 
 button_yes.bind('<Enter>', move_button)
-
+#ураа сделал таск коммерческий проект
 root.mainloop()
