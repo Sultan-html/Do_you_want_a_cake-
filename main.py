@@ -35,4 +35,4 @@ button_no.place(x=80, y=100)
 button_yes.bind('<Enter>', move_button)
 #ураа сделал таск коммерческий проект
 root.mainloop()
-print('sdfsdfda')
+print('sdfsdfda')#fdsfsd
