@@ -1,6 +1,7 @@
 from tkinter import *
 import random
 from tkinter import messagebox
+print('ehf=fe=fwef')
 
 root = Tk()
 root.title('Опрос')
@@ -9,7 +10,7 @@ root.configure(bg='lightblue')
 
 def move_button(event):
     button_yes.place(x=random.randint(0, 350), y=random.randint(0, 250))
-
+    
 def click_no():
     button_no.config(state=DISABLED)
     label.pack_forget()
